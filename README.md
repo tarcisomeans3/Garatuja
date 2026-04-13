@@ -29,10 +29,10 @@ Sua função é estruturar o site e garantir que o conteúdo seja exibido corret
 O HTML utiliza tags, que funcionam como identificadores dos elementos da página. A tag precisa estar sempre dentro desses caracteres "<>".
 
 Exemplos:
-p - cria um parágrafo
-h1 - cria um título
-a - cria um link
-img - exibe uma imagem
+*p - cria um parágrafo
+*h1 - cria um título
+*a - cria um link
+*img - exibe uma imagem
 
 Além de organizar o conteúdo, o HTML também contribui para a acessibilidade, pois define claramente o significado de cada elemento na página.
 
