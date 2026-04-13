@@ -193,11 +193,17 @@ Isso permite aplicar estilos de forma mais específica.
 
 ### TIPOS DE SELETORES ###
 
-p seleciona todos os elementos do tipo
-.classe seleciona por classe
-#id seleciona um elemento específico
-[atributo] seleciona por atributo
-:pseudo seleciona por estado ou posição
+```
+p : seleciona todos os elementos do tipo
+
+.classe : seleciona por classe
+
+#id : seleciona um elemento específico
+
+[atributo] : seleciona por atributo
+
+:pseudo : seleciona por estado ou posição
+```
 
 ---
 
