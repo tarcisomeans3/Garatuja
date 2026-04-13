@@ -1,41 +1,43 @@
-FOCO DA DISCIPLINA
+# WEBDESIGN #
+
+ ### FOCO DA DISCIPLINA ###
 
 A disciplina de Web Design trabalha com linguagens de marcação como HTML, de estilização como CSS e de programação como JavaScript. Basicamente, o aluno aprende a montar um site, organizar corretamente os elementos e aplicar estilos para melhorar a aparência.
 
 
-OBJETIVO
+### OBJETIVO ###
 
 O objetivo da disciplina é capacitar o aluno a criar sites bem estruturados e com um design próprio. A proposta é sair do básico e desenvolver páginas organizadas, funcionais e visualmente agradáveis.
 
 
-PRÉ-REQUISITOS
+### PRÉ-REQUISITOS ###
 
 Não é necessário conhecimento prévio em programação, pois a disciplina é introdutória.
 
 No entanto, é recomendável ter um ambiente preparado, como o uso do Visual Studio Code para escrever o código, o Google Chrome para testar e uma conta no GitHub para armazenar os projetos.
 
 
-HTML - HYPERTEXT MARKUP LANGUAGE
+### HTML - HYPERTEXT MARKUP LANGUAGE ###
 
 O HTML é uma linguagem de marcação utilizada para estruturar páginas web. Ele não realiza lógica de programação, mas organiza o conteúdo e define o significado de cada elemento.
 
 Sua função é estruturar o site e garantir que o conteúdo seja exibido corretamente.
 
 
-TAGS HTML
+### TAGS HTML ###
 
-O HTML utiliza tags, que funcionam como identificadores dos elementos da página.
+O HTML utiliza tags, que funcionam como identificadores dos elementos da página. A tag precisa estar sempre dentro desses caracteres "<>".
 
 Exemplos:
-<p> cria um parágrafo
-<h1> cria um título
-<a> cria um link
-<img> exibe uma imagem
+p - cria um parágrafo
+h1 - cria um título
+a - cria um link
+img - exibe uma imagem
 
 Além de organizar o conteúdo, o HTML também contribui para a acessibilidade, pois define claramente o significado de cada elemento na página.
 
 
-FUNCIONAMENTO DAS TAGS
+### FUNCIONAMENTO DAS TAGS ###
 
 As tags normalmente possuem abertura e fechamento.
 
@@ -45,22 +47,23 @@ Exemplo:
 Você abre a tag, insere o conteúdo e depois fecha. Tudo que estiver dentro será interpretado como aquele tipo de elemento.
 
 
-FORMATAÇÃO DE TEXTO
+### FORMATAÇÃO DE TEXTO ###
 
 É possível formatar textos utilizando tags.
 
 Exemplo:
-<strong>texto importante</strong>
-<em>texto em destaque</em>
+``<strong> text importante </strong> ``
 
-A tag <strong> indica que o texto é importante, enquanto <b> apenas altera o visual para negrito.
+``<em> text em destaque </em>``
 
-A tag <em> indica ênfase, enquanto <i> apenas altera o estilo visual.
+A tag `<strong>` indica que o text é importante, enquanto ``<b>`` apenas altera o visual para negrito.
+
+A tag ``<em>`` indica ênfase, enquanto ``<i>`` apenas altera o estilo visual.
 
 Essas diferenças são importantes para acessibilidade e compreensão do conteúdo.
 
 
-ESTRUTURA BÁSICA DO HTML
+### ESTRUTURA BÁSICA DO HTML ###
 
 Todo site segue uma estrutura padrão.
 
@@ -83,7 +86,7 @@ O <head> contém informações internas da página, como título e configuraçõ
 O <body> contém todo o conteúdo visível ao usuário.
 
 
-ATRIBUTOS HTML
+### ATRIBUTOS HTML ###
 
 Os atributos fornecem informações adicionais às tags e controlam seu comportamento.
 
@@ -100,7 +103,7 @@ O atributo src indica o caminho da imagem.
 Eles são essenciais para o funcionamento correto dos elementos.
 
 
-CSS - CASCADING STYLE SHEETS
+### CSS - CASCADING STYLE SHEETS ###
 
 O CSS é responsável pela aparência visual do site.
 
@@ -109,7 +112,7 @@ Com ele, é possível alterar cores, fontes, tamanhos, espaçamentos e organizar
 Sem o CSS, o site apresenta apenas o estilo padrão do navegador.
 
 
-APLICANDO CSS
+### APLICANDO CSS ###
 
 O CSS pode ser conectado ao HTML da seguinte forma:
 
@@ -119,7 +122,7 @@ Exemplo:
 Esse comando permite aplicar estilos à página.
 
 
-SINTAXE DO CSS
+### SINTAXE DO CSS ###
 
 O CSS funciona por meio de regras.
 
@@ -133,7 +136,7 @@ O valor define como será a alteração.
 Nesse caso, todos os parágrafos terão a cor vermelha.
 
 
-SELETORES CSS
+### SELETORES CSS ###
 
 Os seletores permitem escolher quais elementos serão modificados.
 
@@ -158,7 +161,7 @@ p:first-child { }
 Seleciona elementos com base em posição ou estado.
 
 
-HIERARQUIA NO CSS
+### HIERARQUIA NO CSS ###
 
 O CSS segue a estrutura do HTML.
 
@@ -170,7 +173,7 @@ Esse seletor aplica estilos apenas aos parágrafos dentro de section, que está 
 Isso permite aplicar estilos de forma mais específica.
 
 
-TIPOS DE SELETORES
+### TIPOS DE SELETORES ###
 
 p seleciona todos os elementos do tipo
 .classe seleciona por classe
@@ -179,7 +182,7 @@ p seleciona todos os elementos do tipo
 :pseudo seleciona por estado ou posição
 
 
-IMPORTÂNCIA DO HTML E CSS
+### IMPORTÂNCIA DO HTML E CSS ###
 
 O HTML é responsável por estruturar o conteúdo da página.
 
