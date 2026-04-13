@@ -29,10 +29,10 @@ Tags HTML
 O HTML utiliza tags, que funcionam como identificadores dos elementos da página.
 
 Exemplos:
-<p> → define um parágrafo
-<h1> → define um título
-<a> → cria um link
-<img> → exibe uma imagem
+<p> - define um parágrafo
+<h1> - define um título
+<a> - cria um link
+<img> - exibe uma imagem
 
 
 Funcionamento das tags
