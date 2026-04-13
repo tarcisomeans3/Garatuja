@@ -1,67 +1,67 @@
-WEBDESIGN INTRODUÇÃO A MATERIA
+FOCO DA DISCIPLINA
 
-Foco da disciplina
+A disciplina de Web Design trabalha com linguagens de marcação como HTML, de estilização como CSS e de programação como JavaScript. Basicamente, o aluno aprende a montar um site, organizar corretamente os elementos e aplicar estilos para melhorar a aparência.
 
-A disciplina de Web Design aborda linguagens fundamentais para o desenvolvimento web, como HTML, CSS e JavaScript. Ao longo do curso, o aluno aprende a estruturar páginas, organizar conteúdos e aplicar estilos visuais, construindo sites funcionais e bem apresentados.
+OBJETIVO
 
-
-Objetivo
-
-O objetivo é capacitar o aluno a criar sites bem estruturados, organizados e com identidade visual própria. A proposta é sair do nível básico e desenvolver páginas que funcionem corretamente, com um design limpo e eficiente.
+O objetivo da disciplina é capacitar o aluno a criar sites bem estruturados e com um design próprio. A proposta é sair do básico e desenvolver páginas organizadas, funcionais e visualmente agradáveis.
 
 
-Pré-requisitos
+PRÉ-REQUISITOS
 
 Não é necessário conhecimento prévio em programação, pois a disciplina é introdutória.
 
-No entanto, é recomendável possuir um ambiente básico de desenvolvimento, como um editor de código (ex: Visual Studio Code), um navegador (ex: Google Chrome) e uma conta no GitHub para armazenar os projetos.
+No entanto, é recomendável ter um ambiente preparado, como o uso do Visual Studio Code para escrever o código, o Google Chrome para testar e uma conta no GitHub para armazenar os projetos.
 
 
-HTML – HyperText Markup Language
+HTML - HYPERTEXT MARKUP LANGUAGE
 
-O HTML é uma linguagem de marcação utilizada para estruturar o conteúdo de páginas web. Ele não realiza lógica de programação, mas organiza os elementos da página e define o significado de cada parte.
+O HTML é uma linguagem de marcação utilizada para estruturar páginas web. Ele não realiza lógica de programação, mas organiza o conteúdo e define o significado de cada elemento.
 
-Além disso, o uso correto do HTML contribui para acessibilidade e melhor interpretação do conteúdo pelos navegadores.
+Sua função é estruturar o site e garantir que o conteúdo seja exibido corretamente.
 
 
-Tags HTML
+TAGS HTML
 
 O HTML utiliza tags, que funcionam como identificadores dos elementos da página.
 
 Exemplos:
-<p> - define um parágrafo
-<h1> - define um título
-<a> - cria um link
-<img> - exibe uma imagem
+<p> cria um parágrafo
+<h1> cria um título
+<a> cria um link
+<img> exibe uma imagem
+
+Além de organizar o conteúdo, o HTML também contribui para a acessibilidade, pois define claramente o significado de cada elemento na página.
 
 
-Funcionamento das tags
+FUNCIONAMENTO DAS TAGS
 
-A maioria das tags possui abertura e fechamento.
+As tags normalmente possuem abertura e fechamento.
 
 Exemplo:
 <p>Isso é um parágrafo</p>
 
-Texto:
-A tag <p> define um parágrafo. Todo o conteúdo entre a abertura e o fechamento será exibido como texto na página.
+Você abre a tag, insere o conteúdo e depois fecha. Tudo que estiver dentro será interpretado como aquele tipo de elemento.
 
 
-Semântica e formatação
+FORMATAÇÃO DE TEXTO
 
-Algumas tags possuem significado semântico, indicando a importância do conteúdo.
+É possível formatar textos utilizando tags.
 
 Exemplo:
 <strong>texto importante</strong>
 <em>texto em destaque</em>
 
-Texto:
-A tag <strong> indica que o conteúdo é importante.
-A tag <em> indica ênfase no texto.
+A tag <strong> indica que o texto é importante, enquanto <b> apenas altera o visual para negrito.
 
-Já as tags <b> e <i> apenas alteram o visual, sem acrescentar significado.
+A tag <em> indica ênfase, enquanto <i> apenas altera o estilo visual.
+
+Essas diferenças são importantes para acessibilidade e compreensão do conteúdo.
 
 
-Estrutura básica do HTML
+ESTRUTURA BÁSICA DO HTML
+
+Todo site segue uma estrutura padrão.
 
 Exemplo:
 <!DOCTYPE html>
@@ -74,80 +74,114 @@ Exemplo:
 </body>
 </html>
 
-Texto:
-Essa é a estrutura padrão de um documento HTML.
-A declaração <!DOCTYPE html> define o uso do HTML5.
-A tag <html> envolve todo o conteúdo.
-O <head> contém informações da página que não são exibidas.
-O <body> contém tudo o que será visível ao usuário.
+O <!DOCTYPE html> informa que o documento utiliza HTML5.
+A tag <html> envolve todo o conteúdo da página.
+O atributo lang define o idioma.
+
+O <head> contém informações internas da página, como título e configurações.
+O <body> contém todo o conteúdo visível ao usuário.
 
 
-Atributos HTML
+ATRIBUTOS HTML
 
 Os atributos fornecem informações adicionais às tags e controlam seu comportamento.
 
 Exemplo de link:
 <a href=“https://www.google.com”>Visite o Google</a>
 
-Texto:
-A tag <a> cria um link.
 O atributo href define o destino do link.
-
 
 Exemplo de imagem:
 <img src=“imagem.png”>
 
-Texto:
-A tag <img> exibe uma imagem.
-O atributo src indica o caminho do arquivo.
+O atributo src indica o caminho da imagem.
+
+Eles são essenciais para o funcionamento correto dos elementos.
 
 
-CSS – Cascading Style Sheets
+CSS - CASCADING STYLE SHEETS
 
-O CSS é responsável pela aparência visual do site, permitindo alterar cores, fontes, tamanhos, espaçamentos e organização dos elementos na tela.
+O CSS é responsável pela aparência visual do site.
 
-Sem o CSS, a página utiliza apenas o estilo padrão do navegador.
+Com ele, é possível alterar cores, fontes, tamanhos, espaçamentos e organizar melhor os elementos na página.
+
+Sem o CSS, o site apresenta apenas o estilo padrão do navegador.
 
 
-Aplicando CSS
+APLICANDO CSS
+
+O CSS pode ser conectado ao HTML da seguinte forma:
 
 Exemplo:
 <link rel=“stylesheet” href=“styles.css”>
 
-Texto:
-Esse comando conecta um arquivo CSS ao HTML, permitindo aplicar estilos à página.
+Esse comando permite aplicar estilos à página.
 
 
-Sintaxe do CSS
+SINTAXE DO CSS
+
+O CSS funciona por meio de regras.
 
 Exemplo:
 p { color: red; }
 
-Texto:
-O seletor define quais elementos serão estilizados.
-A propriedade indica o que será alterado, e o valor define como será a alteração.
+O seletor define o elemento que será estilizado.
+A propriedade indica o que será alterado.
+O valor define como será a alteração.
 
-Seletores CSS
+Nesse caso, todos os parágrafos terão a cor vermelha.
 
-Os seletores permitem aplicar estilos de forma específica.
 
-Tipos principais:
-p → todos os parágrafos
-.classe → elementos com determinada classe
-#id → elemento específico
-[atributo] → elementos com determinado atributo
-:pseudo → estados ou posições
+SELETORES CSS
 
-Hierarquia no CSS
+Os seletores permitem escolher quais elementos serão modificados.
+
+Seletor de tipo:
+p { }
+Seleciona todos os parágrafos.
+
+Seletor de classe:
+.titulo { }
+Seleciona elementos com determinada classe.
+
+Seletor de ID:
+#paragrafo1 { }
+Seleciona um elemento específico.
+
+Seletor de atributo:
+a[href=”#”] { }
+Seleciona elementos com determinado atributo.
+
+Pseudo-classes:
+p:first-child { }
+Seleciona elementos com base em posição ou estado.
+
+
+HIERARQUIA NO CSS
+
+O CSS segue a estrutura do HTML.
 
 Exemplo:
 main section p { }
 
-Texto:
-Esse seletor aplica estilos apenas aos parágrafos que estão dentro de uma section, que por sua vez está dentro de main.
+Esse seletor aplica estilos apenas aos parágrafos dentro de section, que está dentro de main.
 
-Importância do HTML e CSS
+Isso permite aplicar estilos de forma mais específica.
 
-O HTML é responsável pela estrutura da página, enquanto o CSS define sua aparência.
+
+TIPOS DE SELETORES
+
+p seleciona todos os elementos do tipo
+.classe seleciona por classe
+#id seleciona um elemento específico
+[atributo] seleciona por atributo
+:pseudo seleciona por estado ou posição
+
+
+IMPORTÂNCIA DO HTML E CSS
+
+O HTML é responsável por estruturar o conteúdo da página.
+
+O CSS define a aparência visual.
 
 Juntos, formam a base essencial para o desenvolvimento de qualquer site.
