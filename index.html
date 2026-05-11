@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>formulario Musical</title>
+
+    <style>
+        * {
+            font-family: system-ui;
+        }
+
+        body {
+            background-image: url(musica.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        main {
+            background: rgb(255, 255, 255);
+            width: 500px;
+            margin: auto;
+            margin-top: 40px;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 12px;
+        }
+
+        textarea {
+            height: 80px;
+        }
+
+        button {
+            width: 100%;
+            background: rgb(218, 5, 5)(31, 1, 1);
+            color: rgb(83, 4, 4)7, 4, 4;
+            margin-top: 10px;
+            padding: 8px;
+        }
+    </style>
+    </head>
+
+        <body>
+    <main>
+        <h1>Entrar na Banda</h1>
+
+        <form method="post">
+
+            <p>nome</p>
+            <input type="text" name="nome">
+
+            <p>sobrenome</p>
+            <input type="text" name="sobrenome">
+
+            <p>email</p>
+            <input type="email" name="email">
+
+            <p>telefone</p>
+            <input type="text" name="tel">
+
+            <p>o que voce toca?</p>
+            <select name>
+                <option>guitarra</option>
+                <option>baixo</option>
+                <option>bateria</option>
+                <option>vocal</option>
+            </select>
+
+            <p>Estilo Musical</p>
+            <textarea name="estilo"></textarea>
+
+            <p>Experiencia</p>
+            <textarea name="exp"></textarea>
+
+            <button type="submit">enviar</button>
+        </form>
+    </main>
+    </body>
+</html>
