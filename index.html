@@ -1,140 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>formulario Musical</title>
 
-<head>
+    <style>
+        * {
+            font-family: system-ui;
+        }
 
-  <title>Perfil - Aside</title>
+        body {
+            background-image: url(musica.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
 
-  <style>
+        main {
+            background: rgb(255, 255, 255);
+            width: 500px;
+            margin: auto;
+            margin-top: 40px;
+            padding: 15px;
+            border-radius: 12px;
+        }
 
-    body {
-      margin: 0;
-    }
+        h1 {
+            text-align: center;
+        }
 
-    main {
+        input, select, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 12px;
+        }
 
-      display: grid;
+        textarea {
+            height: 80px;
+        }
 
-      grid-template-columns: 350px 1fr;
+        button {
+            width: 100%;
+            background: rgb(218, 5, 5)(31, 1, 1);
+            color: rgb(83, 4, 4)7, 4, 4;
+            margin-top: 10px;
+            padding: 8px;
+        }
+    </style>
+    </head>
 
-      padding: 1em;
+        <body>
+    <main>
+        <h1>Entrar na Banda</h1>
 
-      border: 2px dashed black;
+        <form method="post">
 
-    }
+            <p>nome</p>
+            <input type="text" name="nome">
 
-    aside {
+            <p>sobrenome</p>
+            <input type="text" name="sobrenome">
 
-      padding: 1em;
+            <p>email</p>
+            <input type="email" name="email">
 
-      border: 2px dashed red;
+            <p>telefone</p>
+            <input type="text" name="tel">
 
-    }
+            <p>o que voce toca?</p>
+            <select name>
+                <option>guitarra</option>
+                <option>baixo</option>
+                <option>bateria</option>
+                <option>vocal</option>
+            </select>
 
-    aside img {
+            <p>Estilo Musical</p>
+            <textarea name="estilo"></textarea>
 
-      width: 100%;
+            <p>Experiencia</p>
+            <textarea name="exp"></textarea>
 
-    }
-
-    section {
-
-      padding: 1em;
-
-    }
-
-    main > section {
-
-      border: 2px dashed purple;
-
-    }
-
-  </style>
-
-</head>
-
-<body>
-
-  <main>
-
-    <aside>
-
-      <div class="thumb">
-
-        <img src="Lavadorito_Spinito.webp" alt="Imagem do Sumo (clarencio)">
-
-      </div>
-
-      <section class="info">
-
-        <h2>Dados</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Rem qui iure minima in animi excepturi accusamus?
-          Unde optio, eligendi deserunt quas repudiandae odio dolorum assumenda saepe laudantium excepturi at eos!
-        </p>
-
-      </section>
-
-    </aside>
-
-    <section>
-
-      <h2>Release</h2>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Incidunt dicta quibusdam aspernatur sequi earum veniam maxime eveniet,
-        voluptates vero quidem excepturi impedit alias inventore nemo veritatis voluptatem facere fuga aliquam.
-      </p>
-
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Ex, totam dolore! Omnis fuga corrupti, perspiciatis quo reiciendis,
-        quos amet repellendus commodi voluptatibus at nesciunt quia facere inventore, veritatis odio est!
-      </p>
-
-      <h3>Galeria</h3>
-
-      <div class="galeria">
-
-        <img src="https://picsum.photos/200/300?1" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?2" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?3" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?4" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?5" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?6" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?7" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?8" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?9" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?10" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?11" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?12" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?13" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?14" alt="descrição da imagem" title="título da imagem">
-
-        <img src="https://picsum.photos/200/300?15" alt="descrição da imagem" title="título da imagem">
-
-      </div>
-
-    </section>
-
-  </main>
-
-</body>
-
+            <button type="submit">enviar</button>
+        </form>
+    </main>
+    </body>
 </html>
